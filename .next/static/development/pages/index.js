@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./component/App/Header/index.js":
 /*!***************************************!*\
@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/component/App/Header/index.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\component\\App\\Header\\index.js";
 
 
 
@@ -163,7 +163,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/component/App/index.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\component\\App\\index.js";
 
  // import Footer from './Footer'
 
@@ -230,7 +230,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/component/App/slide.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\component\\App\\slide.js";
 
 
 
@@ -273,6 +273,7 @@ function (_React$Component) {
         __self: this
       }), slideImages.map(function (value, key) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+          className: "img-wrapper",
           key: "slide".concat(key),
           __source: {
             fileName: _jsxFileName,
@@ -4834,10 +4835,10 @@ exports.default = withSideEffect;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fbillz%2FDesktop%2FNextjs%2Fpages%2Findex.js!./":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fbillz%2FDesktop%2FNextjs%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CBillz%5CDesktop%5Cwww%5Cnextjs%5Cnextjs%5Cpages%5Cindex.js!./":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CBillz%5CDesktop%5Cwww%5Cnextjs%5Cnextjs%5Cpages%5Cindex.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8699,7 +8700,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/pages/index.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\pages\\index.js";
 
  // import {Link,Router} from '../../../routes'
 // components
@@ -8818,13 +8819,13 @@ function (_Component) {
 /***/ }),
 
 /***/ 0:
-/*!***********************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fbillz%2FDesktop%2FNextjs%2Fpages%2Findex.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CBillz%5CDesktop%5Cwww%5Cnextjs%5Cnextjs%5Cpages%5Cindex.js ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fbillz%2FDesktop%2FNextjs%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fbillz%2FDesktop%2FNextjs%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CBillz%5CDesktop%5Cwww%5Cnextjs%5Cnextjs%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CBillz%5CDesktop%5Cwww%5Cnextjs%5Cnextjs%5Cpages%5Cindex.js!./");
 
 
 /***/ }),

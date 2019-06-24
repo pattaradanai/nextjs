@@ -22,7 +22,7 @@ class SimpleSlider extends React.Component {
         <div id="slide" >
             <Slider {...settings}>
                     {slideImages.map((value, key) => 
-                    <div key={`slide${key}`}>
+                    <div className="img-wrapper" key={`slide${key}`}>
                         <img src={value}/> 
                     </div>
                     )}

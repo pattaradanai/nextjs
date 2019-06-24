@@ -118,7 +118,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/component/App/Header/index.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\component\\App\\Header\\index.js";
 
 
 
@@ -256,7 +256,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/component/App/index.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\component\\App\\index.js";
 
  // import Footer from './Footer'
 
@@ -323,7 +323,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/component/App/slide.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\component\\App\\slide.js";
 
 
 
@@ -366,6 +366,7 @@ function (_React$Component) {
         __self: this
       }), slideImages.map(function (value, key) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+          className: "img-wrapper",
           key: "slide".concat(key),
           __source: {
             fileName: _jsxFileName,
@@ -737,7 +738,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/billz/Desktop/Nextjs/pages/index.js";
+var _jsxFileName = "C:\\Users\\Billz\\Desktop\\www\\nextjs\\nextjs\\pages\\index.js";
 
  // import {Link,Router} from '../../../routes'
 // components
@@ -863,9 +864,9 @@ function (_Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"example": "bJtHPFLkXppppUiox1sca",
-	"slide": "ayeJSHp8htX-ThNVQ-ARM",
-	"slick-slider": "_2Vy3RwpBAwvv-vwazpmKoy"
+	"example": "_1FH3zoiFAWO9OxYHAbPKC-",
+	"slide": "_1QOtIcK0-32rniPAZW8NaV",
+	"img-wrapper": "YOvdpLrs3PGiQezb2Dads"
 };
 
 /***/ }),
@@ -877,7 +878,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/billz/Desktop/Nextjs/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Billz\Desktop\www\nextjs\nextjs\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
