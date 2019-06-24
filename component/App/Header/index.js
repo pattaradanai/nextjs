@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Head from "next/head"
+import "../../../styles/style.scss"
+
 class Header extends Component{
-
-
     render(){
         return(
             <Head>

@@ -1,40 +1,33 @@
 import React from "react"
 import Slider from "react-slick"
-import Head from 'next/head'
+
 
 class SimpleSlider extends React.Component {
   render() {
     var settings = {
+      className: "center",
       dots: true,
       infinite: true,
       speed: 500,
+      autoplaySpeed: 100,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     }
-    return (
-        <>
-      
-        <Slider {...settings}>
-            <div>
-            <h3>1</h3>
-            </div>
-            <div>
-            <h3>2</h3>
-            </div>
-            <div>
-            <h3>3</h3>
-            </div>
-            <div>
-            <h3>4</h3>
-            </div>
-            <div>
-            <h3>5</h3>
-            </div>
-            <div>
-            <h3>6</h3>
-            </div>
-        </Slider>
-        </>
+    const slideImages = [
+        '/static/images/1.jpg',
+        '/static/images/2.jpg',
+        '/static/images/3.jpg'
+      ];
+    return(
+        <div id="slide" >
+            <Slider {...settings}>
+                    {slideImages.map((value, key) => 
+                    <div key={`slide${key}`}>
+                        <img src={value}/> 
+                    </div>
+                    )}
+            </Slider>
+        </div>
     )
   }
 }
