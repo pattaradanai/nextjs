@@ -1,9 +1,18 @@
 .example {
     font-size: 50px;
   }
-
-
+.bg{
+  background: #CDCCCB;
+}
+.category{
+  margin-top: 56px;
+  h3{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
 
 
   @import '_menu';
   @import '_slide';
+  @import '_card';

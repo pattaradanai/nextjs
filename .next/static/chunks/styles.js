@@ -7,8 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
-module.exports = {"example":"_1FH3zoiFAWO9OxYHAbPKC-","slide":"_1QOtIcK0-32rniPAZW8NaV","img-wrapper":"YOvdpLrs3PGiQezb2Dads"};;
+// extracted by mini-css-extract-plugin;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -30,7 +29,7 @@ module.exports = {"example":"_1FH3zoiFAWO9OxYHAbPKC-","slide":"_1QOtIcK0-32rniPA
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1561392530286");
+            injectCss(link, link.href.split("?")[0] + "?unix=1563182813151");
           });
       }
     }

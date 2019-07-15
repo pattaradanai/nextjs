@@ -1,11 +1,98 @@
-._1FH3zoiFAWO9OxYHAbPKC- {
+.example {
   font-size: 50px; }
 
-#_1QOtIcK0-32rniPAZW8NaV .YOvdpLrs3PGiQezb2Dads {
+.bg {
+  background: #CDCCCB; }
+
+.category {
+  margin-top: 56px; }
+  .category h3 {
+    font-size: 1.5em;
+    font-weight: bold; }
+
+#header {
+  z-index: 100;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 56px !important; }
+  #header ul {
+    text-align: right;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px; }
+    #header ul li {
+      display: inline;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 17px; }
+      #header ul li a {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px; }
+        #header ul li a:hover {
+          background-color: #111; }
+
+#slide .img-wrapper {
   min-width: 100%;
-  overflow: hidden; }
-  #_1QOtIcK0-32rniPAZW8NaV .YOvdpLrs3PGiQezb2Dads img {
-    height: 200px; }
+  overflow: hidden;
+  margin-top: 56px !important; }
+  #slide .img-wrapper img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    display: block; }
+
+#card {
+  margin-top: 10px !important; }
+  #card .card {
+    flex: 1 1 50%;
+    border: 1px solid #efefef;
+    margin: 15px 0;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease;
+    position: relative; }
+    #card .card:hover {
+      box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2); }
+    #card .card h1 {
+      margin: 0;
+      font-size: 1.75rem;
+      line-height: 1.2; }
+    #card .card p {
+      margin: 0 0 30px;
+      color: #666666; }
+    #card .card .subtitle {
+      margin: 0 0 15px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #E76C67; }
+    #card .card .card-image {
+      height: 200px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat; }
+    #card .card .card-content {
+      padding: 30px 30px 110px; }
+    #card .card .card-details {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0; }
+    #card .card .card-details-inner {
+      border-top: 1px solid #efefef;
+      margin: 0 30px;
+      padding: 30px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    #card .card .options a {
+      color: #666666; }
+      #card .card .options a:hover {
+        color: #222222; }
+    #card .card .options .fa {
+      margin-right: .25rem; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

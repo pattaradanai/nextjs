@@ -5,13 +5,14 @@ import Head from 'next/head'
 // components
 import App from '../component/App'
 import Sliders from '../component/App/slide'
+import Card from '../component/App/content/card'
 
 
 
 class Index extends Component {
         render(){
             return(
-                <App>
+                <App >
                     <Head>
                     <title>Mono Vampire</title>
                     <meta name="description" content="Mono Vampire" />
@@ -25,13 +26,35 @@ class Index extends Component {
                     <meta name="twitter:description" content="Mono Vampire" />
                     {/* <meta name="twitter:image" content={`${ process.env.SITE_SHARED }/static/assets/images/image-shared.jpg`} /> */}
                     </Head>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12">
-                            <Sliders/>
+                    <body>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12">
+                                    <Sliders/>
+                                </div>
+                            </div>
+                            <div className="row category">
+                                <h3>
+                                    Category
+                                </h3>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-4 col-lg-3">
+                                    <Card/>
+                                </div>
+                                <div className="col-md-4 col-lg-3">
+                                    <Card/>
+                                </div>
+                                <div className="col-md-4 col-lg-3">
+                                    <Card/>
+                                </div>
+                                <div className="col-md-4 col-lg-3">
+                                    <Card/>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </body>
+                   
                     
                 </App>
         );
