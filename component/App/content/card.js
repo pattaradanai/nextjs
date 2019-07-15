@@ -6,7 +6,12 @@ class Card extends Component{
             <div id="card">
                    <div className="card">
                         <div className="card-image">
+                                <img src='/static/images/img_test.jpg'/> 
                         </div>
+                        <div className="text">
+                            Test
+                        </div>
+                        
                    </div>
             </div>
         );

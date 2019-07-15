@@ -50,7 +50,7 @@
   #card .card {
     flex: 1 1 50%;
     border: 1px solid #efefef;
-    margin: 15px 0;
+    margin: auto;
     box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
     transition: all .3s ease;
     position: relative; }
@@ -68,8 +68,14 @@
       font-size: 1.25rem;
       font-weight: 700;
       color: #E76C67; }
+    #card .card .text {
+      margin: 15 15 15px;
+      padding: 5%;
+      font-size: .75rem;
+      font-weight: 500;
+      color: black; }
     #card .card .card-image {
-      height: 200px;
+      height: auto;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
