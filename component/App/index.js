@@ -6,7 +6,7 @@ import "../../styles/style.scss"
 class App extends Component{
         render(){
             return(
-                <div> 
+                <div className="bg"> 
                     <Header/>
                     <div className="row">
                         <div className="container">{ this.props.children }</div> 
